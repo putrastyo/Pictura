@@ -13,6 +13,12 @@ const SearchImage = ({ searchText }: SearchImageProps) => {
   };
   return (
     <div className="lg:w-1/2 w-full py-4 mx-auto">
+      <div className="text-center mb-3">
+        <a href="" className="text-2xl font-bold group">
+          <span className="text-cyan-600 group-hover:text-teal-800">Pic</span>
+          <span className="text-teal-800 group-hover:text-cyan-600">tura</span>
+        </a>
+      </div>
       <form onSubmit={handleSubmit}>
         <div className="flex items-stretch">
           <input
